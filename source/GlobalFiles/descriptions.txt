@@ -1,0 +1,25 @@
+Reset:This is a retro 2D game designed for a software engineering module at Swansea University. You're in control of a player in a maze like structure where the aim of the game is to reach the treasure in the maze and advance to the next level. To do this you'll need to pass obstacles like doors, water and lava along the way whilst avoiding enemies that have been plotted throughout the maze. Upon completing a level you will be given the time you took to complete the level and an option to share that to Twitter.
+
+Please hover over the images of objects on the left side of this screen to view how each object works/can be used. ENJOY!:
+Blue Key:This needs to be picked up by players to unlock a blue door.:
+Green Key:This needs to be picked up by players to unlock a green door.:
+Red Key:This needs to be picked up by players to unlock a red door.:
+Fire Boots:This needs to be picked up by the player to be able to walk over lava.:
+Flippers:This needs to be picked up by the player to be able to walk over water.:
+Token:This needs to be picked up by the player to open token doors. Token doors will need certain amounts of tokens (from 1-9) to be opened.:
+Blue Door:This can only be opened by a blue key.:
+Green Door:This can only be opened by a green key.:
+Red Door:This can only be opened by a red key.:
+Token Door:This will have a number associated with it. That number represents how many tokens are needed to be able to open the door.:
+Lava:This kills a player if they walk on it without fire boots.:
+Goal:This is the tile the player must reach to finish the level.:
+Ground:This is a general floor tile for enemies and the player to walk on.:
+Teleporter:These tiles work in pairs and teleport a player from one teleporter to its pair.:
+Wall:This tile doesn’t allow a player or an enemy to walk onto it.:
+Water:This kills a player if they walk on it without flippers.:
+Blind Enemy:This enemy moves in random directions.:
+Dumb Enemy:This enemy moves towards the player but isn’t very smart and can get stuck.:
+Line Enemy:This enemy moves back and forth in a straight line.:
+Player:This is who you will control.:
+Smart Enemy:This enemy moves towards the player by the shortest route always.:
+Wall Following Enemy:This enemy moves by following a wall.:

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LeaderboardController">
+   <children>
+      <ImageView fitHeight="620.0" fitWidth="1011.0" layoutX="-5.0" layoutY="-60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/menuBackgroundImage.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="leaderBoardOutput" layoutX="250.0" layoutY="150.0" prefHeight="200.0" prefWidth="500.0" />
+      <Label layoutX="388.0" layoutY="58.0" text="Leaderboard" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="home" layoutX="14.0" layoutY="436.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="37.0" prefWidth="125.0" text="Home">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="DialogButton" layoutX="407.0" layoutY="385.0" onAction="#onButtonClicked" prefHeight="39.0" prefWidth="188.0" text="Select Level Number" />
+   </children>
+</AnchorPane>

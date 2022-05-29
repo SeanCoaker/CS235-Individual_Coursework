@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartController">
+   <children>
+      <ImageView fx:id="bgImage" fitHeight="620.0" fitWidth="1011.0" layoutX="-5.0" layoutY="-61.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@Images/menuBackgroundImage.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="backButton" blendMode="HARD_LIGHT" layoutX="14.0" layoutY="445.0" mnemonicParsing="false" onAction="#onButtonClicked2" prefHeight="41.0" prefWidth="96.0" text="Back" />
+      <Button fx:id="create" blendMode="HARD_LIGHT" layoutX="452.0" layoutY="296.0" onAction="#onButtonClicked2" prefHeight="32.0" prefWidth="97.0" text="Create" />
+      <TextField fx:id="conPassword" alignment="CENTER" blendMode="HARD_LIGHT" layoutX="324.0" layoutY="230.0" onKeyReleased="#handleKeyReleased" prefHeight="39.0" prefWidth="352.0" promptText="Confirm Password" />
+      <TextField fx:id="password" alignment="CENTER" blendMode="HARD_LIGHT" layoutX="324.0" layoutY="160.0" onKeyReleased="#handleKeyReleased" prefHeight="39.0" prefWidth="352.0" promptText="Enter Password" />
+      <TextField fx:id="user" alignment="CENTER" blendMode="HARD_LIGHT" layoutX="324.0" layoutY="91.0" onKeyReleased="#handleKeyReleased" prefHeight="39.0" prefWidth="352.0" promptText="Enter Username" />
+   </children>
+</AnchorPane>

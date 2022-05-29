@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AudioSettingsController">
+   <children>
+      <ImageView fx:id="bgImage" fitHeight="620.0" fitWidth="1011.0" layoutX="-5.0" layoutY="-61.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@Images/menuBackgroundImage.jpg" />
+         </image>
+      </ImageView>
+      <Slider fx:id="masterSlider" layoutX="349.0" layoutY="118.0" prefHeight="22.0" prefWidth="303.0" value="100.0" />
+      <Slider fx:id="musicSlider" layoutX="349.0" layoutY="167.0" prefHeight="22.0" prefWidth="303.0" value="100.0" />
+      <Slider fx:id="fxSlider" layoutX="349.0" layoutY="216.0" prefHeight="22.0" prefWidth="303.0" value="100.0" />
+      <Label fx:id="masterLabel" layoutX="425.0" layoutY="90.0" text="Master Volume" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="musicLabel" layoutX="428.0" layoutY="136.0" text="Music Volume" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="fxLabel" layoutX="409.0" layoutY="187.0" text="Sound FX Volume" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button fx:id="backButton" blendMode="HARD_LIGHT" layoutX="898.0" layoutY="447.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="39.0" prefWidth="88.0" text="Back">
+         <font>
+            <Font name="Felix Titling" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

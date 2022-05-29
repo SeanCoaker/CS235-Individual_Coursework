@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LevelEditorMenuController">
+    <children>
+        <ImageView fitHeight="620.0" fitWidth="1011.0" layoutX="-5.0" layoutY="-61.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/menuBackgroundImage.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="createButton" blendMode="HARD_LIGHT" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="50.0" prefWidth="220.0" text="Create">
+            <font>
+                <Font name="Felix Titling" size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="editButton" blendMode="HARD_LIGHT" layoutX="14.0" layoutY="85.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="50.0" prefWidth="220.0" text="Edit">
+            <font>
+                <Font name="Felix Titling" size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="deleteButton" blendMode="HARD_LIGHT" layoutX="14.0" layoutY="436.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="50.0" prefWidth="220.0" text="Delete">
+            <font>
+                <Font name="Felix Titling" size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="backButton" blendMode="HARD_LIGHT" layoutX="861.0" layoutY="436.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="50.0" prefWidth="125.0" text="Back">
+            <font>
+                <Font name="Felix Titling" size="16.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

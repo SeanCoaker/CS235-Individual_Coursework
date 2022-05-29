@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SendTweetController">
+   <children>
+      <ImageView fitHeight="122.0" fitWidth="510.0" layoutX="45.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/TweetPreview.PNG" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="tweetPreviewText" layoutX="45.0" layoutY="179.0" prefHeight="209.0" prefWidth="510.0" />
+      <Button fx:id="cancelButton" layoutX="14.0" layoutY="450.0" mnemonicParsing="false" onAction="#onButtonClicked" text="Cancel" />
+      <Button fx:id="tweetButton" layoutX="438.0" layoutY="450.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="39.0" prefWidth="148.0" text="Tweet" />
+      <Label fx:id="titleLabel" layoutX="14.0" layoutY="14.0" prefHeight="73.0" prefWidth="573.0" textAlignment="CENTER">
+         <font>
+            <Font name="Franklin Gothic Medium" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
